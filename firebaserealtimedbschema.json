@@ -1,0 +1,2649 @@
+{"admin": {
+    "template": {
+      "lastAccess": "",
+      "role": "admin"
+    }
+  },
+  "admin_notifications": {
+    "-ODkxXltIYoWzh0yvVaD": {
+      "document_type": "driver_license",
+      "driver_uid": "oae9AgkQLRfFRf6XmGxD9NFBUTj1",
+      "timestamp": 1733840741,
+      "type": "document_upload"
+    },
+    "-ODky4OVG6dbXglXtkKg": {
+      "document_type": "insurance",
+      "driver_uid": "oae9AgkQLRfFRf6XmGxD9NFBUTj1",
+      "timestamp": 1733840878,
+      "type": "document_upload"
+    }
+  },
+  "admin_profiles": {
+    "5eMypgVwwnYIdWP1j8qZ7mrYUkI2": {
+      "created_at": 1733590575000,
+      "permissions": {
+        "manage_drivers": true,
+        "manage_rides": true,
+        "manage_users": true,
+        "view_reports": true
+      },
+      "status": "active",
+      "updated_at": 1733590575000
+    }
+  },
+  "admin_roles": {
+    "finance_admin": {
+      "permissions": {
+        "manage_payments": true,
+        "view_analytics": true
+      }
+    },
+    "super_admin": {
+      "permissions": {
+        "manage_drivers": true,
+        "manage_payments": true,
+        "manage_promotions": true,
+        "manage_rides": true,
+        "manage_settings": true,
+        "manage_users": true,
+        "view_analytics": true
+      }
+    },
+    "support_admin": {
+      "permissions": {
+        "manage_drivers": true,
+        "manage_rides": true,
+        "manage_users": true,
+        "view_analytics": true
+      }
+    }
+  },
+  "bank_account_verification": {
+    "OLTfBQgb79gYqk2uWMsWikXnF5d2": {
+      "bank_details": {
+        "account_holder_name": "uba bank ",
+        "account_number": "********8765",
+        "account_type": "checking",
+        "bank_name": "UBA",
+        "routing_number": "567788"
+      },
+      "status": "pending",
+      "submitted_at": 1733615281,
+      "verification_attempts": 1
+    },
+    "XHRs2WuS1rNrkJt7DDgR1bshHfr2": {
+      "bank_details": {
+        "account_holder_name": "uba bank",
+        "account_number": "********8765",
+        "account_type": "Checking",
+        "bank_name": "UBA",
+        "routing_number": "567788"
+      },
+      "status": "pending",
+      "submitted_at": 1733615253,
+      "verification_attempts": 1
+    },
+    "dDevyTLvZnWIHVZ0bHbpcS5RHN63": {
+      "status": "not_submitted",
+      "verification_attempts": 0
+    },
+    "l3oGx9xVtKMf1UmjBXeYqfvaQzx2": {
+      "status": "not_submitted",
+      "verification_attempts": 0
+    },
+    "psn5wQM3TeTS273pbmSB2qL3btj1": {
+      "status": "not_submitted",
+      "verification_attempts": 0
+    },
+    "rgxPlvfnGAVMRjWyOEyJMHllodk1": {
+      "status": "not_submitted",
+      "verification_attempts": 0
+    },
+    "test_user": {
+      "status": "not_submitted",
+      "verification_attempts": 0
+    }
+  },
+  "connection_test": {
+    "status": "success",
+    "timestamp": 1734012493
+  },
+  "driver_bank_accounts": {
+    "driver_1": {
+      "bank_details": {
+        "account_holder_name": "Driver 1",
+        "account_number": "****2521",
+        "account_type": "checking",
+        "bank_name": "Sample Bank 1",
+        "country": "US",
+        "routing_number": "****8400",
+        "verification_status": "approved",
+        "verified": true,
+        "verified_at": 1732670301
+      },
+      "payout_preferences": {
+        "auto_payout": true,
+        "frequency": "weekly",
+        "minimum_amount": 50
+      }
+    },
+    "driver_2": {
+      "bank_details": {
+        "account_holder_name": "Driver 2",
+        "account_number": "****3142",
+        "account_type": "checking",
+        "bank_name": "Sample Bank 2",
+        "country": "US",
+        "routing_number": "****8987",
+        "verification_status": "approved",
+        "verified": true,
+        "verified_at": 1732411101
+      },
+      "payout_preferences": {
+        "auto_payout": true,
+        "frequency": "weekly",
+        "minimum_amount": 50
+      }
+    },
+    "driver_3": {
+      "bank_details": {
+        "account_holder_name": "Driver 3",
+        "account_number": "****8761",
+        "account_type": "checking",
+        "bank_name": "Sample Bank 3",
+        "country": "US",
+        "routing_number": "****6969",
+        "verification_status": "approved",
+        "verified": true,
+        "verified_at": 1732238301
+      },
+      "payout_preferences": {
+        "auto_payout": true,
+        "frequency": "weekly",
+        "minimum_amount": 50
+      }
+    },
+    "driver_4": {
+      "bank_details": {
+        "account_holder_name": "Driver 4",
+        "account_number": "****7585",
+        "account_type": "checking",
+        "bank_name": "Sample Bank 4",
+        "country": "US",
+        "routing_number": "****2065",
+        "verification_status": "approved",
+        "verified": true,
+        "verified_at": 1731979101
+      },
+      "payout_preferences": {
+        "auto_payout": true,
+        "frequency": "weekly",
+        "minimum_amount": 50
+      }
+    },
+    "driver_5": {
+      "bank_details": {
+        "account_holder_name": "Driver 5",
+        "account_number": "****7650",
+        "account_type": "checking",
+        "bank_name": "Sample Bank 5",
+        "country": "US",
+        "routing_number": "****1325",
+        "verification_status": "approved",
+        "verified": true,
+        "verified_at": 1733275101
+      },
+      "payout_preferences": {
+        "auto_payout": true,
+        "frequency": "weekly",
+        "minimum_amount": 50
+      }
+    }
+  },
+  "driver_documents": {
+    "oae9AgkQLRfFRf6XmGxD9NFBUTj1": {
+      "-ODkxXhVGyebQ9sDtYWv": {
+        "expiry_date": 1738018800,
+        "filename": "driver_license_oae9AgkQLRfFRf6XmGxD9NFBUTj1_1733840741.jpg",
+        "status": "pending",
+        "type": "driver_license",
+        "uploaded_at": 1733840741,
+        "verification_details": {
+          "submission_timestamp": 1733840741,
+          "submitted_by": "oae9AgkQLRfFRf6XmGxD9NFBUTj1"
+        }
+      },
+      "-ODky4IUHh0rbVrngr2q": {
+        "expiry_date": 1735599600,
+        "filename": "insurance_oae9AgkQLRfFRf6XmGxD9NFBUTj1_1733840879.jpg",
+        "status": "pending",
+        "type": "insurance",
+        "uploaded_at": 1733840878,
+        "verification_details": {
+          "submission_timestamp": 1733840878,
+          "submitted_by": "oae9AgkQLRfFRf6XmGxD9NFBUTj1"
+        }
+      }
+    }
+  },
+  "driver_payout_requests": {
+    "-ODYOlmlcIVDz5X5SDxc": {
+      "amount": "149.08",
+      "bank_account": {
+        "account_number": "SAMPLE_ACCOUNT_btj1",
+        "bank_name": "Sample Bank"
+      },
+      "driver_id": "psn5wQM3TeTS273pbmSB2qL3btj1",
+      "requested_at": 1733613263,
+      "status": "pending"
+    },
+    "template": {
+      "admin_notes": "",
+      "amount": 0,
+      "bank_account": {
+        "account_holder_name": "",
+        "account_number": "",
+        "bank_name": ""
+      },
+      "driver_id": "",
+      "requested_at": 0,
+      "status": "pending"
+    }
+  },
+  "driver_performance": {
+    "OLTfBQgb79gYqk2uWMsWikXnF5d2": {
+      "acceptance_rate": 85,
+      "cancellation_rate": 5,
+      "completed_rides": 45,
+      "total_rides": 50
+    }
+  },
+  "driver_profiles": {
+    "9yQAOZVHTvPM1NRFzpLVM6kRf3T2": {
+      "background_check_status": "pending",
+      "completion_rate": 0,
+      "created_at": 1733614132000,
+      "documents_submitted": false,
+      "is_online": false,
+      "rating": 0,
+      "status": "pending_verification",
+      "total_rides": 0,
+      "updated_at": 1733614132000,
+      "vehicle_verified": false
+    },
+    "OLTfBQgb79gYqk2uWMsWikXnF5d2": {
+      "active_rides": 2,
+      "background_check_status": "pending",
+      "completion_rate": 0,
+      "created_at": 1733611422000,
+      "documents_submitted": false,
+      "is_online": false,
+      "rating": 4.7,
+      "status": "active",
+      "today_earnings": 150.75,
+      "total_rides": 0,
+      "updated_at": 1733611422000,
+      "vehicle_verified": false
+    },
+    "OU65PN10vabqJwqcJ14cQpTtGvQ2": {
+      "background_check_status": "pending",
+      "completion_rate": 0,
+      "created_at": 1733614191000,
+      "documents_submitted": false,
+      "is_online": false,
+      "rating": 0,
+      "status": "pending_verification",
+      "total_rides": 0,
+      "updated_at": 1733614191000,
+      "vehicle_verified": false
+    },
+    "T1voAXMZ1ugZjFC0IrYGHzxxHXJ2": {
+      "background_check_status": "pending",
+      "completion_rate": 0,
+      "created_at": 1733614163000,
+      "documents_submitted": false,
+      "is_online": false,
+      "rating": 0,
+      "status": "pending_verification",
+      "total_rides": 0,
+      "updated_at": 1733614163000,
+      "vehicle_verified": false
+    },
+    "XHRs2WuS1rNrkJt7DDgR1bshHfr2": {
+      "background_check_status": "pending",
+      "completion_rate": 0,
+      "created_at": 1733614195000,
+      "documents_submitted": false,
+      "is_online": false,
+      "rating": 0,
+      "status": "pending_verification",
+      "total_rides": 0,
+      "updated_at": 1733614195000,
+      "vehicle_verified": false
+    },
+    "ZqfoVNmfMravoNTtOaCP6M8Y2Ku2": {
+      "background_check_status": "pending",
+      "completion_rate": 0,
+      "created_at": 1733613999000,
+      "documents_submitted": false,
+      "is_online": false,
+      "rating": 0,
+      "status": "pending_verification",
+      "total_rides": 0,
+      "updated_at": 1733613999000,
+      "vehicle_verified": false
+    },
+    "dDevyTLvZnWIHVZ0bHbpcS5RHN63": {
+      "background_check_status": "pending",
+      "completion_rate": 0,
+      "created_at": 1733610861000,
+      "documents_submitted": false,
+      "is_online": false,
+      "rating": 0,
+      "status": "pending_verification",
+      "total_rides": 0,
+      "updated_at": 1733610861000,
+      "vehicle_verified": false
+    },
+    "iGkScYRW63XDG1LhfL6EXMzJa762": {
+      "background_check_status": "pending",
+      "completion_rate": 0,
+      "created_at": 1733613886000,
+      "documents_submitted": false,
+      "is_online": false,
+      "rating": 0,
+      "status": "pending_verification",
+      "total_rides": 0,
+      "updated_at": 1733613886000,
+      "vehicle_verified": false
+    },
+    "jg2EbChj97ZKAm5oMdQO75Qssor1": {
+      "background_check_status": "pending",
+      "completion_rate": 0,
+      "created_at": 1733675388000,
+      "documents_submitted": false,
+      "is_online": false,
+      "rating": 0,
+      "status": "pending_verification",
+      "total_rides": 0,
+      "updated_at": 1733675388000,
+      "vehicle_verified": false
+    },
+    "l3oGx9xVtKMf1UmjBXeYqfvaQzx2": {
+      "background_check_status": "pending",
+      "created_at": 1733512768000,
+      "earnings_current_month": 0,
+      "earnings_total": 0,
+      "is_available": false,
+      "updated_at": 1733512768000,
+      "verification_status": "pending"
+    },
+    "oae9AgkQLRfFRf6XmGxD9NFBUTj1": {
+      "background_check_status": "pending",
+      "completion_rate": 0,
+      "created_at": 1733613846000,
+      "documents_submitted": false,
+      "is_online": false,
+      "rating": 0,
+      "status": "pending_verification",
+      "stripe_customer": "cus_RNV3NPhoNkjlK3",
+      "total_rides": 0,
+      "updated_at": 1733821861000,
+      "vehicle_verified": false
+    },
+    "psn5wQM3TeTS273pbmSB2qL3btj1": {
+      "background_check_status": "pending",
+      "completion_rate": 0,
+      "created_at": 1733586184000,
+      "documents_submitted": false,
+      "is_online": false,
+      "rating": 0,
+      "status": "pending_verification",
+      "total_rides": 0,
+      "updated_at": 1733586184000,
+      "vehicle_verified": false
+    },
+    "rgxPlvfnGAVMRjWyOEyJMHllodk1": {
+      "background_check_status": "pending",
+      "completion_rate": 0,
+      "created_at": 1733611135000,
+      "documents_submitted": false,
+      "is_online": false,
+      "rating": 0,
+      "status": "pending_verification",
+      "total_rides": 0,
+      "updated_at": 1733611135000,
+      "vehicle_verified": false
+    },
+    "test_user": {
+      "license_document_url": "https://storage.googleapis.com/utok-7f63a.appspot.com/drivers/test_user/documents/license/license_test_user_1733606404_6754bc0412609.pdf",
+      "license_hash": "16c4cb75eda0d478e8b4466c190378c7e2ab26c7b71bc893038fa8aa7a356c23",
+      "license_size": 606,
+      "license_status": "pending_verification",
+      "license_type": "application/pdf",
+      "license_uploaded_at": 1733606404000,
+      "updated_at": 1733606404000
+    },
+    "wUG7odKklaYZV4oMoF6W5RXVHys2": {
+      "background_check_status": "pending",
+      "completion_rate": 0,
+      "created_at": 1733674887000,
+      "documents_submitted": false,
+      "is_online": false,
+      "rating": 0,
+      "status": "pending_verification",
+      "total_rides": 0,
+      "updated_at": 1733674887000,
+      "vehicle_verified": false
+    }
+  },
+  "driver_vehicles": {
+    "OLTfBQgb79gYqk2uWMsWikXnF5d2": {
+      "color": "Blue",
+      "license_plate": "ABC996",
+      "make": "Toyota",
+      "model": "Camry",
+      "type": "sedan",
+      "year": 2022
+    }
+  },
+  "driver_wallets": {
+    "OLTfBQgb79gYqk2uWMsWikXnF5d2": {
+      "balance": 151.88,
+      "bank_account": {
+        "account_number": "********8765",
+        "account_type": "checking",
+        "bank_name": "UBA",
+        "verified": false
+      },
+      "created_at": 1733613256,
+      "pending_earnings": 0,
+      "total_earnings": 151.88,
+      "updated_at": 1733613261
+    },
+    "XHRs2WuS1rNrkJt7DDgR1bshHfr2": {
+      "bank_account": {
+        "account_number": "********8765",
+        "account_type": "Checking",
+        "bank_name": "UBA",
+        "verified": false
+      }
+    },
+    "dDevyTLvZnWIHVZ0bHbpcS5RHN63": {
+      "balance": 215.64,
+      "created_at": 1733613256,
+      "pending_earnings": 0,
+      "total_earnings": 215.64,
+      "updated_at": 1733613262
+    },
+    "l3oGx9xVtKMf1UmjBXeYqfvaQzx2": {
+      "balance": 166.89999999999998,
+      "created_at": 1733613257,
+      "pending_earnings": 0,
+      "total_earnings": 166.89999999999998,
+      "updated_at": 1733613262
+    },
+    "psn5wQM3TeTS273pbmSB2qL3btj1": {
+      "balance": 298.15999999999997,
+      "created_at": 1733613257,
+      "pending_earnings": 0,
+      "total_earnings": 298.15999999999997,
+      "updated_at": 1733613261
+    },
+    "rgxPlvfnGAVMRjWyOEyJMHllodk1": {
+      "balance": 202.52,
+      "created_at": 1733613258,
+      "pending_earnings": 0,
+      "total_earnings": 202.52,
+      "updated_at": 1733613262
+    },
+    "test_user": {
+      "balance": 195.01,
+      "created_at": 1733613258,
+      "pending_earnings": 0,
+      "total_earnings": 195.01,
+      "updated_at": 1733613263
+    }
+  },
+  "drivers": {
+    "template": {
+      "availability": {
+        "currentLocation": {
+          "lastUpdated": "",
+          "lat": 0,
+          "lng": 0
+        },
+        "status": "offline"
+      },
+      "completedRides": 0,
+      "documents": {
+        "insuranceExpiry": "",
+        "insuranceNumber": "",
+        "licenseExpiry": "",
+        "licenseNumber": "",
+        "vehicleRegistration": ""
+      },
+      "earnings": {
+        "currentMonth": 0,
+        "total": 0
+      },
+      "rating": 0,
+      "vehicle": {
+        "capacity": 0,
+        "color": "",
+        "licensePlate": "",
+        "make": "",
+        "model": "",
+        "year": ""
+      }
+    }
+  },
+  "email_queue": {
+    "-ODubF0RqFiaM1C87DU6": {
+      "attempts": 0,
+      "completed_at": 1734006282,
+      "created_at": 1734002671,
+      "data": {
+        "email": "hanscadx8@gmail.com",
+        "pdfContent": "%PDF-1.5\r\n1 0 obj\r\n<< /Type /Catalog /Pages 2 0 R >>\r\nendobj\r\n2 0 obj\r\n<< /Type /Pages /Kids [3 0 R] /Count 1 >>\r\nendobj\r\n3 0 obj\r\n<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R >>\r\nendobj\r\n4 0 obj\r\n<< /Length 68 >>\r\nstream\r\nBT\r\n/F1 24 Tf\r\n100 700 Td\r\n(Test Receipt PDF - 2024-12-12 12:24:29) Tj\r\nET\r\nendstream\r\nendobj\r\nxref\r\n0 5\r\n0000000000 65535 f\r\n0000000009 00000 n\r\n0000000058 00000 n\r\n0000000115 00000 n\r\n0000000200 00000 n\r\ntrailer << /Size 5 /Root 1 0 R >>\r\nstartxref\r\n316\r\n%%EOF",
+        "transactionId": "TEST-RECEIPT-1734002669",
+        "userName": "Hans"
+      },
+      "id": "-ODubF0RqFiaM1C87DU6",
+      "processing_started": 1734006271,
+      "scheduled_for": 1734002671,
+      "status": "completed",
+      "type": "receipt"
+    },
+    "-ODubF9V5QT9Xi0Fltb8": {
+      "attempts": 0,
+      "completed_at": 1734006288,
+      "created_at": 1734002671,
+      "data": {
+        "email": "hanscadx8@gmail.com",
+        "rideDetails": {
+          "dropoff": {
+            "address": "456 Market St"
+          },
+          "fare": {
+            "total": 25.5
+          },
+          "id": "RIDE-1734002671",
+          "pickup": {
+            "address": "123 Main St"
+          },
+          "status": "confirmed"
+        },
+        "userName": "Hans"
+      },
+      "id": "-ODubF9V5QT9Xi0Fltb8",
+      "processing_started": 1734006282,
+      "scheduled_for": 1734002671,
+      "status": "completed",
+      "type": "ride_confirmation"
+    },
+    "-ODubFIBHJL7D3amL2Ag": {
+      "attempts": 0,
+      "completed_at": 1734006296,
+      "created_at": 1734002672,
+      "data": {
+        "alertDetails": {
+          "action_url": "https://yourapp.com/security/account",
+          "device": "Unknown Device",
+          "location": "New York, USA",
+          "timestamp": 1734002672,
+          "type": "suspicious_login"
+        },
+        "email": "hanscadx8@gmail.com",
+        "userName": "Hans"
+      },
+      "id": "-ODubFIBHJL7D3amL2Ag",
+      "processing_started": 1734006288,
+      "scheduled_for": 1734002672,
+      "status": "completed",
+      "type": "security_alert"
+    },
+    "-ODubFRRqaqrAQaBNwPI": {
+      "attempts": 0,
+      "completed_at": 1734006304,
+      "created_at": 1734002673,
+      "data": {
+        "driverDetails": {
+          "name": "John Driver",
+          "rating": 4.8,
+          "vehicle": {
+            "license_plate": "ABC123",
+            "make": "Toyota",
+            "model": "Camry"
+          }
+        },
+        "email": "hanscadx8@gmail.com",
+        "userName": "Hans"
+      },
+      "id": "-ODubFRRqaqrAQaBNwPI",
+      "processing_started": 1734006296,
+      "scheduled_for": 1734002673,
+      "status": "completed",
+      "type": "driver_match"
+    }
+  },
+  "messages": {
+    "template": {
+      "content": "",
+      "recipient": "",
+      "sender": "",
+      "status": "unread",
+      "timestamp": ""
+    }
+  },
+  "notifications": {
+    "-ODXzbWxklWqrP3sj9S7": {
+      "created_at": 1733606404000,
+      "data": {
+        "document_hash": "16c4cb75eda0d478e8b4466c190378c7e2ab26c7b71bc893038fa8aa7a356c23",
+        "document_type": "license",
+        "document_url": "https://storage.googleapis.com/utok-7f63a.appspot.com/drivers/test_user/documents/license/license_test_user_1733606404_6754bc0412609.pdf",
+        "driver_id": "test_user",
+        "uploaded_at": 1733606404000
+      },
+      "message": "Driver test_user has uploaded a new license document",
+      "read": false,
+      "title": "New Driver Document Uploaded",
+      "type": "document_verification",
+      "user_id": "admin"
+    }
+  },
+  "passenger_payment_methods": {
+    "passenger_1": {
+      "card_675a39df20433_1733966303": {
+        "billing_address": {
+          "city": "Sample City",
+          "country": "US",
+          "line1": "258 Main St",
+          "postal_code": 65565,
+          "state": "ST"
+        },
+        "brand": "amex",
+        "card_holder_name": "Passenger 1",
+        "created_at": 1733966301,
+        "exp_month": 8,
+        "exp_year": 2028,
+        "is_default": true,
+        "last4": 5248,
+        "stripe_payment_method_id": "pm_675a39df20446_1733966303"
+      }
+    },
+    "passenger_2": {
+      "card_675a39df695ea_1733966303": {
+        "billing_address": {
+          "city": "Sample City",
+          "country": "US",
+          "line1": "742 Main St",
+          "postal_code": 65742,
+          "state": "ST"
+        },
+        "brand": "amex",
+        "card_holder_name": "Passenger 2",
+        "created_at": 1733966301,
+        "exp_month": 1,
+        "exp_year": 2027,
+        "is_default": true,
+        "last4": 3332,
+        "stripe_payment_method_id": "pm_675a39df695fa_1733966303"
+      }
+    },
+    "passenger_3": {
+      "card_675a39dfb1a65_1733966303": {
+        "billing_address": {
+          "city": "Sample City",
+          "country": "US",
+          "line1": "876 Main St",
+          "postal_code": 41242,
+          "state": "ST"
+        },
+        "brand": "visa",
+        "card_holder_name": "Passenger 3",
+        "created_at": 1733966301,
+        "exp_month": 9,
+        "exp_year": 2027,
+        "is_default": true,
+        "last4": 3427,
+        "stripe_payment_method_id": "pm_675a39dfb1a77_1733966303"
+      }
+    },
+    "passenger_4": {
+      "card_675a39e00806c_1733966304": {
+        "billing_address": {
+          "city": "Sample City",
+          "country": "US",
+          "line1": "122 Main St",
+          "postal_code": 83167,
+          "state": "ST"
+        },
+        "brand": "mastercard",
+        "card_holder_name": "Passenger 4",
+        "created_at": 1733966301,
+        "exp_month": 11,
+        "exp_year": 2026,
+        "is_default": true,
+        "last4": 5650,
+        "stripe_payment_method_id": "pm_675a39e00808d_1733966304"
+      }
+    },
+    "passenger_5": {
+      "card_675a39e055e6e_1733966304": {
+        "billing_address": {
+          "city": "Sample City",
+          "country": "US",
+          "line1": "377 Main St",
+          "postal_code": 30842,
+          "state": "ST"
+        },
+        "brand": "mastercard",
+        "card_holder_name": "Passenger 5",
+        "created_at": 1733966301,
+        "exp_month": 1,
+        "exp_year": 2025,
+        "is_default": true,
+        "last4": 6852,
+        "stripe_payment_method_id": "pm_675a39e055e7f_1733966304"
+      }
+    }
+  },
+  "passenger_profiles": {
+    "3bLLE0XY02Sdn8rzaWtsTGMiSUQ2": {
+      "created_at": 1733583904000,
+      "rating": 0,
+      "status": "active",
+      "total_rides": 0,
+      "updated_at": 1733583904000
+    }
+  },
+  "payment_methods": {
+    "template": {
+      "cards": {
+        "card_id": {
+          "billing_address": {
+            "city": "",
+            "country": "",
+            "line1": "",
+            "line2": "",
+            "postal_code": "",
+            "state": ""
+          },
+          "brand": "",
+          "card_holder_name": "",
+          "created_at": 0,
+          "exp_month": 0,
+          "exp_year": 0,
+          "is_default": false,
+          "last4": "",
+          "stripe_payment_method_id": ""
+        }
+      }
+    }
+  },
+  "payment_settings": {
+    "payout": {
+      "maximum_payout": 1000,
+      "minimum_balance": 50,
+      "processing_schedule": {
+        "cutoff_time": "17:00",
+        "day": "friday",
+        "frequency": "weekly",
+        "timezone": "UTC"
+      },
+      "supported_banks": {
+        "ach": true,
+        "sepa": false,
+        "wire": false
+      }
+    },
+    "stripe": {
+      "currency": "USD",
+      "fixed_fee": 0.3,
+      "payment_processing_fee": 2.9,
+      "require_3ds": true,
+      "supported_card_brands": {
+        "amex": true,
+        "discover": true,
+        "mastercard": true,
+        "visa": true
+      },
+      "test_mode": true
+    }
+  },
+  "payment_transactions": {
+    "passenger_1": {
+      "transaction_675a39df20450_1733966303": {
+        "amount": 45,
+        "created_at": 1733951901,
+        "passenger_id": "passenger_1",
+        "payment_method": {
+          "brand": "amex",
+          "last4": 5248,
+          "type": "card"
+        },
+        "receipt_url": "https://receipt.example.com/675a39df20457_1733966303",
+        "ride_id": "ride_675a39df20451_1733966303",
+        "status": "completed",
+        "stripe_payment_intent_id": "pi_675a39df20456_1733966303"
+      }
+    },
+    "passenger_2": {
+      "transaction_675a39df69603_1733966303": {
+        "amount": 48,
+        "created_at": 1733879901,
+        "passenger_id": "passenger_2",
+        "payment_method": {
+          "brand": "amex",
+          "last4": 3332,
+          "type": "card"
+        },
+        "receipt_url": "https://receipt.example.com/675a39df69609_1733966303",
+        "ride_id": "ride_675a39df69605_1733966303",
+        "status": "completed",
+        "stripe_payment_intent_id": "pi_675a39df69608_1733966303"
+      }
+    },
+    "passenger_3": {
+      "transaction_675a39dfb1a80_1733966303": {
+        "amount": 80,
+        "created_at": 1733879901,
+        "passenger_id": "passenger_3",
+        "payment_method": {
+          "brand": "visa",
+          "last4": 3427,
+          "type": "card"
+        },
+        "receipt_url": "https://receipt.example.com/675a39dfb1a87_1733966303",
+        "ride_id": "ride_675a39dfb1a81_1733966303",
+        "status": "completed",
+        "stripe_payment_intent_id": "pi_675a39dfb1a85_1733966303"
+      }
+    },
+    "passenger_4": {
+      "transaction_675a39e0080a2_1733966304": {
+        "amount": 37,
+        "created_at": 1733962701,
+        "passenger_id": "passenger_4",
+        "payment_method": {
+          "brand": "mastercard",
+          "last4": 5650,
+          "type": "card"
+        },
+        "receipt_url": "https://receipt.example.com/675a39e0080b1_1733966304",
+        "ride_id": "ride_675a39e0080a6_1733966304",
+        "status": "completed",
+        "stripe_payment_intent_id": "pi_675a39e0080ae_1733966304"
+      }
+    },
+    "passenger_5": {
+      "transaction_675a39e055e88_1733966304": {
+        "amount": 71,
+        "created_at": 1733926701,
+        "passenger_id": "passenger_5",
+        "payment_method": {
+          "brand": "mastercard",
+          "last4": 6852,
+          "type": "card"
+        },
+        "receipt_url": "https://receipt.example.com/675a39e055e8e_1733966304",
+        "ride_id": "ride_675a39e055e89_1733966304",
+        "status": "completed",
+        "stripe_payment_intent_id": "pi_675a39e055e8d_1733966304"
+      }
+    }
+  },
+  "payout_logs": {
+    "-ODYX-1AG6KdFVf7s3bs": {
+      "driver_id": "OLTfBQgb79gYqk2uWMsWikXnF5d2",
+      "payout_amount": 100,
+      "reason": "Unverified bank account",
+      "status": "failed",
+      "timestamp": 1733615417
+    },
+    "-ODYX0GJIoO8ULStkKxy": {
+      "driver_id": "OLTfBQgb79gYqk2uWMsWikXnF5d2",
+      "payout_amount": 100,
+      "reason": "Unverified bank account",
+      "status": "failed",
+      "timestamp": 1733615422
+    }
+  },
+  "payout_requests": {
+    "driver_1": {
+      "request_675a39df2044a_1733966303": {
+        "amount": 274,
+        "bank_account": {
+          "bank_name": "Sample Bank 1",
+          "last4": "2521"
+        },
+        "driver_id": "driver_1",
+        "notes": "",
+        "requested_at": 1733879901,
+        "status": "pending"
+      }
+    },
+    "driver_2": {
+      "request_675a39df695fe_1733966303": {
+        "amount": 372,
+        "bank_account": {
+          "bank_name": "Sample Bank 2",
+          "last4": "3142"
+        },
+        "driver_id": "driver_2",
+        "notes": "",
+        "requested_at": 1733793501,
+        "status": "pending"
+      }
+    },
+    "driver_3": {
+      "request_675a39dfb1a7b_1733966303": {
+        "amount": 65,
+        "bank_account": {
+          "bank_name": "Sample Bank 3",
+          "last4": "8761"
+        },
+        "driver_id": "driver_3",
+        "notes": "",
+        "requested_at": 1733793501,
+        "status": "processing"
+      }
+    },
+    "driver_4": {
+      "request_675a39e008097_1733966304": {
+        "amount": 333,
+        "bank_account": {
+          "bank_name": "Sample Bank 4",
+          "last4": "7585"
+        },
+        "driver_id": "driver_4",
+        "notes": "",
+        "requested_at": 1733793501,
+        "status": "processing"
+      }
+    },
+    "driver_5": {
+      "request_675a39e055e83_1733966304": {
+        "amount": 298,
+        "bank_account": {
+          "bank_name": "Sample Bank 5",
+          "last4": "7650"
+        },
+        "driver_id": "driver_5",
+        "notes": "",
+        "requested_at": 1733447901,
+        "status": "completed"
+      }
+    },
+    "template": {
+      "amount": 0,
+      "completed_at": 0,
+      "requested_at": 0,
+      "status": "pending"
+    }
+  },
+  "payout_system": {
+    "template": {
+      "settings": {
+        "cut_off_time": "17:00 UTC",
+        "max_payout_amount": 1000,
+        "min_payout_amount": 50,
+        "payout_day": "friday",
+        "payout_schedule": "weekly",
+        "processing_time": "2-3 business days",
+        "supported_countries": {
+          "CA": true,
+          "GB": true,
+          "US": true
+        }
+      }
+    }
+  },
+  "pricing_rules": {
+    "cancellation_fees": {
+      "driver": {
+        "amount": 5,
+        "grace_period_minutes": 3
+      },
+      "passenger": {
+        "amount": 5,
+        "grace_period_minutes": 5
+      }
+    },
+    "promotions": {
+      "new_user_discount": {
+        "duration_days": 30,
+        "max_amount": 10,
+        "percentage": 20
+      },
+      "referral_bonus": {
+        "amount": 25,
+        "min_rides": 10
+      }
+    },
+    "surge_pricing": {
+      "demand_threshold": 0.8,
+      "enabled": true,
+      "min_drivers": 5,
+      "multiplier_range": [
+        1.2,
+        3
+      ]
+    }
+  },
+  "referral_earnings": {
+    "template": {
+      "referral_code": "",
+      "total_earned": 0
+    }
+  },
+  "rides": {
+    "-ODYOA4tQcqONXol82w7": {
+      "completed_at": 1733613104,
+      "distance_miles": 25,
+      "driver": {
+        "name": " ",
+        "userId": "dDevyTLvZnWIHVZ0bHbpcS5RHN63"
+      },
+      "driver_earnings": 50.63,
+      "dropoff": {
+        "address": "Bronx, New York City",
+        "lat": 40.8448,
+        "lng": -73.8648
+      },
+      "duration_minutes": 75,
+      "passenger": {
+        "email": "test.passenger@example.com",
+        "name": "Test Passenger",
+        "phone": "+2341234567890",
+        "userId": "3bLLE0XY02Sdn8rzaWtsTGMiSUQ2"
+      },
+      "pickup": {
+        "address": "Brooklyn, New York City",
+        "lat": 40.6782,
+        "lng": -73.9442
+      },
+      "ride_fare": 67.5,
+      "status": "completed"
+    },
+    "-ODYOA9Ak7Aq40bQc42R": {
+      "completed_at": 1733613105,
+      "distance_miles": 23,
+      "driver": {
+        "name": " ",
+        "userId": "psn5wQM3TeTS273pbmSB2qL3btj1"
+      },
+      "driver_earnings": 46.88,
+      "dropoff": {
+        "address": "Bronx, New York City",
+        "lat": 40.8448,
+        "lng": -73.8648
+      },
+      "duration_minutes": 69,
+      "passenger": {
+        "email": "test.passenger@example.com",
+        "name": "Test Passenger",
+        "phone": "+2341234567890",
+        "userId": "3bLLE0XY02Sdn8rzaWtsTGMiSUQ2"
+      },
+      "pickup": {
+        "address": "Brooklyn, New York City",
+        "lat": 40.6782,
+        "lng": -73.9442
+      },
+      "ride_fare": 62.5,
+      "status": "completed"
+    },
+    "-ODYOADcQFDw-wdIj_dn": {
+      "completed_at": 1733613105,
+      "distance_miles": 7,
+      "driver": {
+        "name": " ",
+        "userId": "l3oGx9xVtKMf1UmjBXeYqfvaQzx2"
+      },
+      "driver_earnings": 16.88,
+      "dropoff": {
+        "address": "Queens, New York City",
+        "lat": 40.7282,
+        "lng": -73.7949
+      },
+      "duration_minutes": 21,
+      "passenger": {
+        "email": "test.passenger@example.com",
+        "name": "Test Passenger",
+        "phone": "+2341234567890",
+        "userId": "3bLLE0XY02Sdn8rzaWtsTGMiSUQ2"
+      },
+      "pickup": {
+        "address": "Bronx, New York City",
+        "lat": 40.8448,
+        "lng": -73.8648
+      },
+      "ride_fare": 22.5,
+      "status": "completed"
+    },
+    "-ODYOAI1wf9Kqc9dlagj": {
+      "completed_at": 1733613105,
+      "distance_miles": 5,
+      "driver": {
+        "name": " ",
+        "userId": "rgxPlvfnGAVMRjWyOEyJMHllodk1"
+      },
+      "driver_earnings": 13.13,
+      "dropoff": {
+        "address": "Staten Island, New York City",
+        "lat": 40.5795,
+        "lng": -74.1502
+      },
+      "duration_minutes": 15,
+      "passenger": {
+        "email": "test.passenger@example.com",
+        "name": "Test Passenger",
+        "phone": "+2341234567890",
+        "userId": "3bLLE0XY02Sdn8rzaWtsTGMiSUQ2"
+      },
+      "pickup": {
+        "address": "Queens, New York City",
+        "lat": 40.7282,
+        "lng": -73.7949
+      },
+      "ride_fare": 17.5,
+      "status": "completed"
+    },
+    "-ODYOAMRjQOqR53C_xdD": {
+      "completed_at": 1733613105,
+      "distance_miles": 8,
+      "driver": {
+        "name": " ",
+        "userId": "OLTfBQgb79gYqk2uWMsWikXnF5d2"
+      },
+      "driver_earnings": 18.75,
+      "dropoff": {
+        "address": "Queens, New York City",
+        "lat": 40.7282,
+        "lng": -73.7949
+      },
+      "duration_minutes": 24,
+      "passenger": {
+        "email": "test.passenger@example.com",
+        "name": "Test Passenger",
+        "phone": "+2341234567890",
+        "userId": "3bLLE0XY02Sdn8rzaWtsTGMiSUQ2"
+      },
+      "pickup": {
+        "address": "Manhattan, New York City",
+        "lat": 40.7128,
+        "lng": -74.006
+      },
+      "ride_fare": 25,
+      "status": "completed"
+    },
+    "-ODYOAQpdB985HsCOd_0": {
+      "completed_at": 1733613106,
+      "distance_miles": 21,
+      "driver": {
+        "name": " ",
+        "userId": "l3oGx9xVtKMf1UmjBXeYqfvaQzx2"
+      },
+      "driver_earnings": 43.13,
+      "dropoff": {
+        "address": "Staten Island, New York City",
+        "lat": 40.5795,
+        "lng": -74.1502
+      },
+      "duration_minutes": 63,
+      "passenger": {
+        "email": "test.passenger@example.com",
+        "name": "Test Passenger",
+        "phone": "+2341234567890",
+        "userId": "3bLLE0XY02Sdn8rzaWtsTGMiSUQ2"
+      },
+      "pickup": {
+        "address": "Queens, New York City",
+        "lat": 40.7282,
+        "lng": -73.7949
+      },
+      "ride_fare": 57.5,
+      "status": "completed"
+    },
+    "-ODYOAV94R1rX35hMFDQ": {
+      "completed_at": 1733613106,
+      "distance_miles": 16,
+      "driver": {
+        "name": " ",
+        "userId": "dDevyTLvZnWIHVZ0bHbpcS5RHN63"
+      },
+      "driver_earnings": 33.75,
+      "dropoff": {
+        "address": "Brooklyn, New York City",
+        "lat": 40.6782,
+        "lng": -73.9442
+      },
+      "duration_minutes": 48,
+      "passenger": {
+        "email": "test.passenger@example.com",
+        "name": "Test Passenger",
+        "phone": "+2341234567890",
+        "userId": "3bLLE0XY02Sdn8rzaWtsTGMiSUQ2"
+      },
+      "pickup": {
+        "address": "Queens, New York City",
+        "lat": 40.7282,
+        "lng": -73.7949
+      },
+      "ride_fare": 45,
+      "status": "completed"
+    },
+    "-ODYOAZnCjuzMV8NtTqJ": {
+      "completed_at": 1733613106,
+      "distance_miles": 14,
+      "driver": {
+        "name": " ",
+        "userId": "dDevyTLvZnWIHVZ0bHbpcS5RHN63"
+      },
+      "driver_earnings": 30,
+      "dropoff": {
+        "address": "Staten Island, New York City",
+        "lat": 40.5795,
+        "lng": -74.1502
+      },
+      "duration_minutes": 42,
+      "passenger": {
+        "email": "test.passenger@example.com",
+        "name": "Test Passenger",
+        "phone": "+2341234567890",
+        "userId": "3bLLE0XY02Sdn8rzaWtsTGMiSUQ2"
+      },
+      "pickup": {
+        "address": "Bronx, New York City",
+        "lat": 40.8448,
+        "lng": -73.8648
+      },
+      "ride_fare": 40,
+      "status": "completed"
+    },
+    "-ODYOAdGkqpD-T4B8QA6": {
+      "completed_at": 1733613107,
+      "distance_miles": 8,
+      "driver": {
+        "name": " ",
+        "userId": "dDevyTLvZnWIHVZ0bHbpcS5RHN63"
+      },
+      "driver_earnings": 18.75,
+      "dropoff": {
+        "address": "Manhattan, New York City",
+        "lat": 40.7128,
+        "lng": -74.006
+      },
+      "duration_minutes": 24,
+      "passenger": {
+        "email": "test.passenger@example.com",
+        "name": "Test Passenger",
+        "phone": "+2341234567890",
+        "userId": "3bLLE0XY02Sdn8rzaWtsTGMiSUQ2"
+      },
+      "pickup": {
+        "address": "Queens, New York City",
+        "lat": 40.7282,
+        "lng": -73.7949
+      },
+      "ride_fare": 25,
+      "status": "completed"
+    },
+    "-ODYOAhL0pMHKqimUKJ1": {
+      "completed_at": 1733613107,
+      "distance_miles": 17,
+      "driver": {
+        "name": " ",
+        "userId": "rgxPlvfnGAVMRjWyOEyJMHllodk1"
+      },
+      "driver_earnings": 35.63,
+      "dropoff": {
+        "address": "Queens, New York City",
+        "lat": 40.7282,
+        "lng": -73.7949
+      },
+      "duration_minutes": 51,
+      "passenger": {
+        "email": "test.passenger@example.com",
+        "name": "Test Passenger",
+        "phone": "+2341234567890",
+        "userId": "3bLLE0XY02Sdn8rzaWtsTGMiSUQ2"
+      },
+      "pickup": {
+        "address": "Staten Island, New York City",
+        "lat": 40.5795,
+        "lng": -74.1502
+      },
+      "ride_fare": 47.5,
+      "status": "completed"
+    },
+    "-ODYOAll5iOWJIkBWBFC": {
+      "completed_at": 1733613107,
+      "distance_miles": 10,
+      "driver": {
+        "name": " ",
+        "userId": "OLTfBQgb79gYqk2uWMsWikXnF5d2"
+      },
+      "driver_earnings": 22.5,
+      "dropoff": {
+        "address": "Staten Island, New York City",
+        "lat": 40.5795,
+        "lng": -74.1502
+      },
+      "duration_minutes": 30,
+      "passenger": {
+        "email": "test.passenger@example.com",
+        "name": "Test Passenger",
+        "phone": "+2341234567890",
+        "userId": "3bLLE0XY02Sdn8rzaWtsTGMiSUQ2"
+      },
+      "pickup": {
+        "address": "Bronx, New York City",
+        "lat": 40.8448,
+        "lng": -73.8648
+      },
+      "ride_fare": 30,
+      "status": "completed"
+    },
+    "-ODYOApsgKjhCT0Y0gY7": {
+      "completed_at": 1733613107,
+      "distance_miles": 13,
+      "driver": {
+        "name": " ",
+        "userId": "test_user"
+      },
+      "driver_earnings": 28.13,
+      "dropoff": {
+        "address": "Brooklyn, New York City",
+        "lat": 40.6782,
+        "lng": -73.9442
+      },
+      "duration_minutes": 39,
+      "passenger": {
+        "email": "test.passenger@example.com",
+        "name": "Test Passenger",
+        "phone": "+2341234567890",
+        "userId": "3bLLE0XY02Sdn8rzaWtsTGMiSUQ2"
+      },
+      "pickup": {
+        "address": "Brooklyn, New York City",
+        "lat": 40.6782,
+        "lng": -73.9442
+      },
+      "ride_fare": 37.5,
+      "status": "completed"
+    },
+    "-ODYOAuYUKgeq9Ro1mPo": {
+      "completed_at": 1733613108,
+      "distance_miles": 15,
+      "driver": {
+        "name": " ",
+        "userId": "dDevyTLvZnWIHVZ0bHbpcS5RHN63"
+      },
+      "driver_earnings": 31.88,
+      "dropoff": {
+        "address": "Queens, New York City",
+        "lat": 40.7282,
+        "lng": -73.7949
+      },
+      "duration_minutes": 45,
+      "passenger": {
+        "email": "test.passenger@example.com",
+        "name": "Test Passenger",
+        "phone": "+2341234567890",
+        "userId": "3bLLE0XY02Sdn8rzaWtsTGMiSUQ2"
+      },
+      "pickup": {
+        "address": "Staten Island, New York City",
+        "lat": 40.5795,
+        "lng": -74.1502
+      },
+      "ride_fare": 42.5,
+      "status": "completed"
+    },
+    "-ODYOAz9xhmXNh133CzY": {
+      "completed_at": 1733613108,
+      "distance_miles": 12,
+      "driver": {
+        "name": " ",
+        "userId": "test_user"
+      },
+      "driver_earnings": 26.25,
+      "dropoff": {
+        "address": "Bronx, New York City",
+        "lat": 40.8448,
+        "lng": -73.8648
+      },
+      "duration_minutes": 36,
+      "passenger": {
+        "email": "test.passenger@example.com",
+        "name": "Test Passenger",
+        "phone": "+2341234567890",
+        "userId": "3bLLE0XY02Sdn8rzaWtsTGMiSUQ2"
+      },
+      "pickup": {
+        "address": "Bronx, New York City",
+        "lat": 40.8448,
+        "lng": -73.8648
+      },
+      "ride_fare": 35,
+      "status": "completed"
+    },
+    "-ODYOGwHhs33NaTXRBZU": {
+      "completed_at": 1733613132,
+      "distance_miles": 21,
+      "driver": {
+        "email": "unknown@example.com",
+        "name": "Unknown User",
+        "phone": "+1234567890",
+        "userId": "rgxPlvfnGAVMRjWyOEyJMHllodk1"
+      },
+      "driver_earnings": 43.13,
+      "dropoff": {
+        "address": "Queens, New York City",
+        "lat": 40.7282,
+        "lng": -73.7949
+      },
+      "duration_minutes": 63,
+      "passenger": {
+        "email": "test.passenger@example.com",
+        "name": "Test Passenger",
+        "phone": "+2341234567890",
+        "userId": "3bLLE0XY02Sdn8rzaWtsTGMiSUQ2"
+      },
+      "pickup": {
+        "address": "Brooklyn, New York City",
+        "lat": 40.6782,
+        "lng": -73.9442
+      },
+      "ride_fare": 57.5,
+      "status": "completed"
+    },
+    "-ODYOH-RyUS3PUky_49n": {
+      "completed_at": 1733613133,
+      "distance_miles": 9,
+      "driver": {
+        "email": "unknown@example.com",
+        "name": "Unknown User",
+        "phone": "+1234567890",
+        "userId": "OLTfBQgb79gYqk2uWMsWikXnF5d2"
+      },
+      "driver_earnings": 20.63,
+      "dropoff": {
+        "address": "Bronx, New York City",
+        "lat": 40.8448,
+        "lng": -73.8648
+      },
+      "duration_minutes": 27,
+      "passenger": {
+        "email": "test.passenger@example.com",
+        "name": "Test Passenger",
+        "phone": "+2341234567890",
+        "userId": "3bLLE0XY02Sdn8rzaWtsTGMiSUQ2"
+      },
+      "pickup": {
+        "address": "Bronx, New York City",
+        "lat": 40.8448,
+        "lng": -73.8648
+      },
+      "ride_fare": 27.5,
+      "status": "completed"
+    },
+    "-ODYOH3dnYPYLMO2S6k3": {
+      "completed_at": 1733613133,
+      "distance_miles": 24,
+      "driver": {
+        "email": "unknown@example.com",
+        "name": "Unknown User",
+        "phone": "+1234567890",
+        "userId": "test_user"
+      },
+      "driver_earnings": 48.75,
+      "dropoff": {
+        "address": "Manhattan, New York City",
+        "lat": 40.7128,
+        "lng": -74.006
+      },
+      "duration_minutes": 72,
+      "passenger": {
+        "email": "test.passenger@example.com",
+        "name": "Test Passenger",
+        "phone": "+2341234567890",
+        "userId": "3bLLE0XY02Sdn8rzaWtsTGMiSUQ2"
+      },
+      "pickup": {
+        "address": "Staten Island, New York City",
+        "lat": 40.5795,
+        "lng": -74.1502
+      },
+      "ride_fare": 65,
+      "status": "completed"
+    },
+    "-ODYOH7pBRcqrM95awjM": {
+      "completed_at": 1733613133,
+      "distance_miles": 5,
+      "driver": {
+        "email": "unknown@example.com",
+        "name": "Unknown User",
+        "phone": "+1234567890",
+        "userId": "l3oGx9xVtKMf1UmjBXeYqfvaQzx2"
+      },
+      "driver_earnings": 13.13,
+      "dropoff": {
+        "address": "Queens, New York City",
+        "lat": 40.7282,
+        "lng": -73.7949
+      },
+      "duration_minutes": 15,
+      "passenger": {
+        "email": "test.passenger@example.com",
+        "name": "Test Passenger",
+        "phone": "+2341234567890",
+        "userId": "3bLLE0XY02Sdn8rzaWtsTGMiSUQ2"
+      },
+      "pickup": {
+        "address": "Queens, New York City",
+        "lat": 40.7282,
+        "lng": -73.7949
+      },
+      "ride_fare": 17.5,
+      "status": "completed"
+    },
+    "-ODYOHBuz255ii-d_2jx": {
+      "completed_at": 1733613133,
+      "distance_miles": 10,
+      "driver": {
+        "email": "unknown@example.com",
+        "name": "Unknown User",
+        "phone": "+1234567890",
+        "userId": "test_user"
+      },
+      "driver_earnings": 22.5,
+      "dropoff": {
+        "address": "Staten Island, New York City",
+        "lat": 40.5795,
+        "lng": -74.1502
+      },
+      "duration_minutes": 30,
+      "passenger": {
+        "email": "test.passenger@example.com",
+        "name": "Test Passenger",
+        "phone": "+2341234567890",
+        "userId": "3bLLE0XY02Sdn8rzaWtsTGMiSUQ2"
+      },
+      "pickup": {
+        "address": "Brooklyn, New York City",
+        "lat": 40.6782,
+        "lng": -73.9442
+      },
+      "ride_fare": 30,
+      "status": "completed"
+    },
+    "-ODYOHFvFeR85Gby6Jhz": {
+      "completed_at": 1733613134,
+      "distance_miles": 5,
+      "driver": {
+        "email": "unknown@example.com",
+        "name": "Unknown User",
+        "phone": "+1234567890",
+        "userId": "psn5wQM3TeTS273pbmSB2qL3btj1"
+      },
+      "driver_earnings": 13.13,
+      "dropoff": {
+        "address": "Bronx, New York City",
+        "lat": 40.8448,
+        "lng": -73.8648
+      },
+      "duration_minutes": 15,
+      "passenger": {
+        "email": "test.passenger@example.com",
+        "name": "Test Passenger",
+        "phone": "+2341234567890",
+        "userId": "3bLLE0XY02Sdn8rzaWtsTGMiSUQ2"
+      },
+      "pickup": {
+        "address": "Staten Island, New York City",
+        "lat": 40.5795,
+        "lng": -74.1502
+      },
+      "ride_fare": 17.5,
+      "status": "completed"
+    },
+    "-ODYOHKO5F6r7kCh8kD6": {
+      "completed_at": 1733613134,
+      "distance_miles": 5,
+      "driver": {
+        "email": "unknown@example.com",
+        "name": "Unknown User",
+        "phone": "+1234567890",
+        "userId": "l3oGx9xVtKMf1UmjBXeYqfvaQzx2"
+      },
+      "driver_earnings": 13.13,
+      "dropoff": {
+        "address": "Staten Island, New York City",
+        "lat": 40.5795,
+        "lng": -74.1502
+      },
+      "duration_minutes": 15,
+      "passenger": {
+        "email": "test.passenger@example.com",
+        "name": "Test Passenger",
+        "phone": "+2341234567890",
+        "userId": "3bLLE0XY02Sdn8rzaWtsTGMiSUQ2"
+      },
+      "pickup": {
+        "address": "Brooklyn, New York City",
+        "lat": 40.6782,
+        "lng": -73.9442
+      },
+      "ride_fare": 17.5,
+      "status": "completed"
+    },
+    "-ODYOHOSd2Zv-oJNYHPI": {
+      "completed_at": 1733613134,
+      "distance_miles": 18,
+      "driver": {
+        "email": "unknown@example.com",
+        "name": "Unknown User",
+        "phone": "+1234567890",
+        "userId": "psn5wQM3TeTS273pbmSB2qL3btj1"
+      },
+      "driver_earnings": 37.5,
+      "dropoff": {
+        "address": "Manhattan, New York City",
+        "lat": 40.7128,
+        "lng": -74.006
+      },
+      "duration_minutes": 54,
+      "passenger": {
+        "email": "test.passenger@example.com",
+        "name": "Test Passenger",
+        "phone": "+2341234567890",
+        "userId": "3bLLE0XY02Sdn8rzaWtsTGMiSUQ2"
+      },
+      "pickup": {
+        "address": "Brooklyn, New York City",
+        "lat": 40.6782,
+        "lng": -73.9442
+      },
+      "ride_fare": 50,
+      "status": "completed"
+    },
+    "-ODYOHSyOnF1qEvhaaeF": {
+      "completed_at": 1733613135,
+      "distance_miles": 5,
+      "driver": {
+        "email": "unknown@example.com",
+        "name": "Unknown User",
+        "phone": "+1234567890",
+        "userId": "l3oGx9xVtKMf1UmjBXeYqfvaQzx2"
+      },
+      "driver_earnings": 13.13,
+      "dropoff": {
+        "address": "Brooklyn, New York City",
+        "lat": 40.6782,
+        "lng": -73.9442
+      },
+      "duration_minutes": 15,
+      "passenger": {
+        "email": "test.passenger@example.com",
+        "name": "Test Passenger",
+        "phone": "+2341234567890",
+        "userId": "3bLLE0XY02Sdn8rzaWtsTGMiSUQ2"
+      },
+      "pickup": {
+        "address": "Manhattan, New York City",
+        "lat": 40.7128,
+        "lng": -74.006
+      },
+      "ride_fare": 17.5,
+      "status": "completed"
+    },
+    "-ODYOHXSB7EneDZU3TM6": {
+      "completed_at": 1733613135,
+      "distance_miles": 13,
+      "driver": {
+        "email": "unknown@example.com",
+        "name": "Unknown User",
+        "phone": "+1234567890",
+        "userId": "psn5wQM3TeTS273pbmSB2qL3btj1"
+      },
+      "driver_earnings": 28.13,
+      "dropoff": {
+        "address": "Queens, New York City",
+        "lat": 40.7282,
+        "lng": -73.7949
+      },
+      "duration_minutes": 39,
+      "passenger": {
+        "email": "test.passenger@example.com",
+        "name": "Test Passenger",
+        "phone": "+2341234567890",
+        "userId": "3bLLE0XY02Sdn8rzaWtsTGMiSUQ2"
+      },
+      "pickup": {
+        "address": "Bronx, New York City",
+        "lat": 40.8448,
+        "lng": -73.8648
+      },
+      "ride_fare": 37.5,
+      "status": "completed"
+    },
+    "-ODYOHb3Q6G7HfpaQvFH": {
+      "completed_at": 1733613135,
+      "distance_miles": 12,
+      "driver": {
+        "email": "unknown@example.com",
+        "name": "Unknown User",
+        "phone": "+1234567890",
+        "userId": "OLTfBQgb79gYqk2uWMsWikXnF5d2"
+      },
+      "driver_earnings": 26.25,
+      "dropoff": {
+        "address": "Bronx, New York City",
+        "lat": 40.8448,
+        "lng": -73.8648
+      },
+      "duration_minutes": 36,
+      "passenger": {
+        "email": "test.passenger@example.com",
+        "name": "Test Passenger",
+        "phone": "+2341234567890",
+        "userId": "3bLLE0XY02Sdn8rzaWtsTGMiSUQ2"
+      },
+      "pickup": {
+        "address": "Bronx, New York City",
+        "lat": 40.8448,
+        "lng": -73.8648
+      },
+      "ride_fare": 35,
+      "status": "completed"
+    },
+    "-ODYOHf2d0GgigBRG9Nb": {
+      "completed_at": 1733613135,
+      "distance_miles": 18,
+      "driver": {
+        "email": "unknown@example.com",
+        "name": "Unknown User",
+        "phone": "+1234567890",
+        "userId": "OLTfBQgb79gYqk2uWMsWikXnF5d2"
+      },
+      "driver_earnings": 37.5,
+      "dropoff": {
+        "address": "Manhattan, New York City",
+        "lat": 40.7128,
+        "lng": -74.006
+      },
+      "duration_minutes": 54,
+      "passenger": {
+        "email": "test.passenger@example.com",
+        "name": "Test Passenger",
+        "phone": "+2341234567890",
+        "userId": "3bLLE0XY02Sdn8rzaWtsTGMiSUQ2"
+      },
+      "pickup": {
+        "address": "Bronx, New York City",
+        "lat": 40.8448,
+        "lng": -73.8648
+      },
+      "ride_fare": 50,
+      "status": "completed"
+    },
+    "-ODYOHjHLmCSkOO30TNW": {
+      "completed_at": 1733613136,
+      "distance_miles": 16,
+      "driver": {
+        "email": "unknown@example.com",
+        "name": "Unknown User",
+        "phone": "+1234567890",
+        "userId": "test_user"
+      },
+      "driver_earnings": 33.75,
+      "dropoff": {
+        "address": "Queens, New York City",
+        "lat": 40.7282,
+        "lng": -73.7949
+      },
+      "duration_minutes": 48,
+      "passenger": {
+        "email": "test.passenger@example.com",
+        "name": "Test Passenger",
+        "phone": "+2341234567890",
+        "userId": "3bLLE0XY02Sdn8rzaWtsTGMiSUQ2"
+      },
+      "pickup": {
+        "address": "Queens, New York City",
+        "lat": 40.7282,
+        "lng": -73.7949
+      },
+      "ride_fare": 45,
+      "status": "completed"
+    },
+    "-ODYOHnbWOdp_HqmMUHP": {
+      "completed_at": 1733613136,
+      "distance_miles": 20,
+      "driver": {
+        "email": "unknown@example.com",
+        "name": "Unknown User",
+        "phone": "+1234567890",
+        "userId": "l3oGx9xVtKMf1UmjBXeYqfvaQzx2"
+      },
+      "driver_earnings": 41.25,
+      "dropoff": {
+        "address": "Bronx, New York City",
+        "lat": 40.8448,
+        "lng": -73.8648
+      },
+      "duration_minutes": 60,
+      "passenger": {
+        "email": "test.passenger@example.com",
+        "name": "Test Passenger",
+        "phone": "+2341234567890",
+        "userId": "3bLLE0XY02Sdn8rzaWtsTGMiSUQ2"
+      },
+      "pickup": {
+        "address": "Staten Island, New York City",
+        "lat": 40.5795,
+        "lng": -74.1502
+      },
+      "ride_fare": 55,
+      "status": "completed"
+    },
+    "-ODYOHs3YyshFwD20tot": {
+      "completed_at": 1733613136,
+      "distance_miles": 25,
+      "driver": {
+        "email": "unknown@example.com",
+        "name": "Unknown User",
+        "phone": "+1234567890",
+        "userId": "psn5wQM3TeTS273pbmSB2qL3btj1"
+      },
+      "driver_earnings": 50.63,
+      "dropoff": {
+        "address": "Manhattan, New York City",
+        "lat": 40.7128,
+        "lng": -74.006
+      },
+      "duration_minutes": 75,
+      "passenger": {
+        "email": "test.passenger@example.com",
+        "name": "Test Passenger",
+        "phone": "+2341234567890",
+        "userId": "3bLLE0XY02Sdn8rzaWtsTGMiSUQ2"
+      },
+      "pickup": {
+        "address": "Queens, New York City",
+        "lat": 40.7282,
+        "lng": -73.7949
+      },
+      "ride_fare": 67.5,
+      "status": "completed"
+    },
+    "-ODYOHwUzdobes6O2_lH": {
+      "completed_at": 1733613137,
+      "distance_miles": 19,
+      "driver": {
+        "email": "unknown@example.com",
+        "name": "Unknown User",
+        "phone": "+1234567890",
+        "userId": "psn5wQM3TeTS273pbmSB2qL3btj1"
+      },
+      "driver_earnings": 39.38,
+      "dropoff": {
+        "address": "Bronx, New York City",
+        "lat": 40.8448,
+        "lng": -73.8648
+      },
+      "duration_minutes": 57,
+      "passenger": {
+        "email": "test.passenger@example.com",
+        "name": "Test Passenger",
+        "phone": "+2341234567890",
+        "userId": "3bLLE0XY02Sdn8rzaWtsTGMiSUQ2"
+      },
+      "pickup": {
+        "address": "Brooklyn, New York City",
+        "lat": 40.6782,
+        "lng": -73.9442
+      },
+      "ride_fare": 52.5,
+      "status": "completed"
+    },
+    "-ODYOI-n-0djAGZHooNU": {
+      "completed_at": 1733613137,
+      "distance_miles": 24,
+      "driver": {
+        "email": "unknown@example.com",
+        "name": "Unknown User",
+        "phone": "+1234567890",
+        "userId": "rgxPlvfnGAVMRjWyOEyJMHllodk1"
+      },
+      "driver_earnings": 48.75,
+      "dropoff": {
+        "address": "Brooklyn, New York City",
+        "lat": 40.6782,
+        "lng": -73.9442
+      },
+      "duration_minutes": 72,
+      "passenger": {
+        "email": "test.passenger@example.com",
+        "name": "Test Passenger",
+        "phone": "+2341234567890",
+        "userId": "3bLLE0XY02Sdn8rzaWtsTGMiSUQ2"
+      },
+      "pickup": {
+        "address": "Queens, New York City",
+        "lat": 40.7282,
+        "lng": -73.7949
+      },
+      "ride_fare": 65,
+      "status": "completed"
+    },
+    "-ODYOI48SIdcoMnmFw3J": {
+      "completed_at": 1733613137,
+      "distance_miles": 17,
+      "driver": {
+        "email": "unknown@example.com",
+        "name": "Unknown User",
+        "phone": "+1234567890",
+        "userId": "test_user"
+      },
+      "driver_earnings": 35.63,
+      "dropoff": {
+        "address": "Bronx, New York City",
+        "lat": 40.8448,
+        "lng": -73.8648
+      },
+      "duration_minutes": 51,
+      "passenger": {
+        "email": "test.passenger@example.com",
+        "name": "Test Passenger",
+        "phone": "+2341234567890",
+        "userId": "3bLLE0XY02Sdn8rzaWtsTGMiSUQ2"
+      },
+      "pickup": {
+        "address": "Brooklyn, New York City",
+        "lat": 40.6782,
+        "lng": -73.9442
+      },
+      "ride_fare": 47.5,
+      "status": "completed"
+    },
+    "-ODYOI8cKyodNf11YHr5": {
+      "completed_at": 1733613137,
+      "distance_miles": 21,
+      "driver": {
+        "email": "unknown@example.com",
+        "name": "Unknown User",
+        "phone": "+1234567890",
+        "userId": "psn5wQM3TeTS273pbmSB2qL3btj1"
+      },
+      "driver_earnings": 43.13,
+      "dropoff": {
+        "address": "Brooklyn, New York City",
+        "lat": 40.6782,
+        "lng": -73.9442
+      },
+      "duration_minutes": 63,
+      "passenger": {
+        "email": "test.passenger@example.com",
+        "name": "Test Passenger",
+        "phone": "+2341234567890",
+        "userId": "3bLLE0XY02Sdn8rzaWtsTGMiSUQ2"
+      },
+      "pickup": {
+        "address": "Brooklyn, New York City",
+        "lat": 40.6782,
+        "lng": -73.9442
+      },
+      "ride_fare": 57.5,
+      "status": "completed"
+    },
+    "-ODYOICuJCPZq6W1EPL-": {
+      "completed_at": 1733613138,
+      "distance_miles": 24,
+      "driver": {
+        "email": "unknown@example.com",
+        "name": "Unknown User",
+        "phone": "+1234567890",
+        "userId": "rgxPlvfnGAVMRjWyOEyJMHllodk1"
+      },
+      "driver_earnings": 48.75,
+      "dropoff": {
+        "address": "Brooklyn, New York City",
+        "lat": 40.6782,
+        "lng": -73.9442
+      },
+      "duration_minutes": 72,
+      "passenger": {
+        "email": "test.passenger@example.com",
+        "name": "Test Passenger",
+        "phone": "+2341234567890",
+        "userId": "3bLLE0XY02Sdn8rzaWtsTGMiSUQ2"
+      },
+      "pickup": {
+        "address": "Manhattan, New York City",
+        "lat": 40.7128,
+        "lng": -74.006
+      },
+      "ride_fare": 65,
+      "status": "completed"
+    },
+    "67599c1f18ca5": {
+      "completed_at": 1733929519,
+      "distance_miles": 17,
+      "driver": {
+        "email": "driver1@example.com",
+        "name": "Driver 1"
+      },
+      "passenger": {
+        "email": "passenger1@example.com",
+        "name": "Passenger 1"
+      },
+      "status": "completed"
+    },
+    "67599c2081fbc": {
+      "completed_at": 1733933120,
+      "distance_miles": 8,
+      "driver": {
+        "email": "driver2@example.com",
+        "name": "Driver 2"
+      },
+      "passenger": {
+        "email": "passenger2@example.com",
+        "name": "Passenger 2"
+      },
+      "status": "completed"
+    },
+    "67599c20dc142": {
+      "completed_at": 1733936720,
+      "distance_miles": 15,
+      "driver": {
+        "email": "driver3@example.com",
+        "name": "Driver 3"
+      },
+      "passenger": {
+        "email": "passenger3@example.com",
+        "name": "Passenger 3"
+      },
+      "status": "completed"
+    },
+    "67599c2145617": {
+      "completed_at": 1733940321,
+      "distance_miles": 6,
+      "driver": {
+        "email": "driver4@example.com",
+        "name": "Driver 4"
+      },
+      "passenger": {
+        "email": "passenger4@example.com",
+        "name": "Passenger 4"
+      },
+      "status": "completed"
+    },
+    "67599c21958e7": {
+      "completed_at": 1733943921,
+      "distance_miles": 8,
+      "driver": {
+        "email": "driver5@example.com",
+        "name": "Driver 5"
+      },
+      "passenger": {
+        "email": "passenger5@example.com",
+        "name": "Passenger 5"
+      },
+      "status": "completed"
+    },
+    "67599c21de8b0": {
+      "completed_at": 1733947521,
+      "distance_miles": 13,
+      "driver": {
+        "email": "driver6@example.com",
+        "name": "Driver 6"
+      },
+      "passenger": {
+        "email": "passenger6@example.com",
+        "name": "Passenger 6"
+      },
+      "status": "completed"
+    },
+    "67599c22316d3": {
+      "completed_at": 1733951122,
+      "distance_miles": 8,
+      "driver": {
+        "email": "driver7@example.com",
+        "name": "Driver 7"
+      },
+      "passenger": {
+        "email": "passenger7@example.com",
+        "name": "Passenger 7"
+      },
+      "status": "completed"
+    },
+    "67599c227a33f": {
+      "completed_at": 1733954722,
+      "distance_miles": 7,
+      "driver": {
+        "email": "driver8@example.com",
+        "name": "Driver 8"
+      },
+      "passenger": {
+        "email": "passenger8@example.com",
+        "name": "Passenger 8"
+      },
+      "status": "completed"
+    },
+    "67599c22c37dc": {
+      "completed_at": 1733958322,
+      "distance_miles": 29,
+      "driver": {
+        "email": "driver9@example.com",
+        "name": "Driver 9"
+      },
+      "passenger": {
+        "email": "passenger9@example.com",
+        "name": "Passenger 9"
+      },
+      "status": "completed"
+    },
+    "67599c23134d6": {
+      "completed_at": 1733961923,
+      "distance_miles": 15,
+      "driver": {
+        "email": "driver10@example.com",
+        "name": "Driver 10"
+      },
+      "passenger": {
+        "email": "passenger10@example.com",
+        "name": "Passenger 10"
+      },
+      "status": "completed"
+    },
+    "template": {
+      "completed_at": 0,
+      "distance_miles": 0,
+      "driver_earnings": 0,
+      "dropoff": {
+        "address": "",
+        "lat": 0,
+        "lng": 0
+      },
+      "duration_minutes": 0,
+      "passenger": {
+        "email": "",
+        "name": "",
+        "phone": "",
+        "userId": ""
+      },
+      "payment_status": "unpaid",
+      "pickup": {
+        "address": "",
+        "lat": 0,
+        "lng": 0
+      },
+      "ride_fare": 0,
+      "status": "available"
+    }
+  },
+  "secure_config": {
+    "template": {
+      "stripe": {
+        "apiKeys": {
+          "live": {
+            "publishable": "",
+            "secret": ""
+          },
+          "test": {
+            "publishable": "",
+            "secret": ""
+          }
+        },
+        "testMode": true,
+        "webhookSecret": ""
+      }
+    }
+  },
+  "service_types": {
+    "premium": {
+      "base_fare": 10,
+      "capacity": 4,
+      "description": "Luxury vehicles for a premium experience",
+      "minimum_fare": 15,
+      "name": "Premium",
+      "per_mile_rate": 2.5,
+      "per_minute_rate": 0.4,
+      "status": "active"
+    },
+    "standard": {
+      "base_fare": 5,
+      "capacity": 4,
+      "description": "Affordable rides for everyday needs",
+      "minimum_fare": 8,
+      "name": "Standard",
+      "per_mile_rate": 1.5,
+      "per_minute_rate": 0.25,
+      "status": "active"
+    },
+    "xl": {
+      "base_fare": 8,
+      "capacity": 6,
+      "description": "Larger vehicles for groups",
+      "minimum_fare": 12,
+      "name": "XL",
+      "per_mile_rate": 2,
+      "per_minute_rate": 0.35,
+      "status": "active"
+    }
+  },
+  "settings": {
+    "template": {
+      "app": {
+        "forceUpdate": false,
+        "maintenance": false,
+        "version": "1.0.0"
+      },
+      "fare": {
+        "baseRate": 0,
+        "minimumFare": 0,
+        "perKm": 0,
+        "perMinute": 0
+      }
+    }
+  },
+  "subscriptions": {
+    "biweekly": {
+      "commission_rate": 0.15,
+      "duration": 14,
+      "features": [
+        "unlimited_rides",
+        "priority_support",
+        "advanced_analytics",
+        "priority_matching"
+      ],
+      "name": "Biweekly Plan",
+      "price": 89.99,
+      "status": "active"
+    },
+    "monthly": {
+      "commission_rate": 0.1,
+      "duration": 30,
+      "features": [
+        "unlimited_rides",
+        "premium_support",
+        "realtime_analytics",
+        "priority_matching",
+        "exclusive_promos"
+      ],
+      "name": "Monthly Pro Plan",
+      "price": 129.99,
+      "status": "active"
+    },
+    "weekly": {
+      "commission_rate": 0.2,
+      "duration": 7,
+      "features": [
+        "unlimited_rides",
+        "basic_support",
+        "basic_analytics"
+      ],
+      "name": "Weekly Plan",
+      "price": 59.99,
+      "status": "active"
+    }
+  },
+  "system": {
+    "template": {
+      "lastMaintenance": "",
+      "metrics": {
+        "activeDrivers": 0,
+        "activeUsers": 0,
+        "completedRides": 0
+      },
+      "status": "operational"
+    }
+  },
+  "system_configs": {
+    "app_settings": {
+      "force_update": false,
+      "maintenance_mode": false,
+      "min_app_version": "1.0.0"
+    },
+    "driver_requirements": {
+      "max_cancellation_rate": 0.15,
+      "min_acceptance_rate": 0.8,
+      "min_rating": 4
+    },
+    "matching_settings": {
+      "max_driver_requests": 3,
+      "max_radius_miles": 5,
+      "max_wait_time": 30
+    },
+    "payment_settings": {
+      "currencies": [
+        "USD"
+      ],
+      "default_currency": "USD",
+      "max_cash_limit": 100,
+      "min_wallet_balance": 5
+    }
+  },
+  "upload_history": {
+    "test_user": {
+      "document": {
+        "-ODXzbNAkm9VpCUONxNz": {
+          "ip": "::1",
+          "timestamp": 1733606405000
+        }
+      },
+      "profile": {
+        "-ODXYNo1duQX-r6CPOJo": {
+          "ip": "::1",
+          "timestamp": 1733599005000
+        }
+      }
+    }
+  },
+  "users": {
+    "3bLLE0XY02Sdn8rzaWtsTGMiSUQ2": {
+      "created_at": 1733583903000,
+      "email": "test.passenger@example.com",
+      "email_verified": false,
+      "first_name": "Test",
+      "last_login": 1733595501000,
+      "last_name": "Passenger",
+      "phone": "+2341234567890",
+      "phone_verified": false,
+      "profile_completed": false,
+      "status": "pending",
+      "updated_at": 1733595501000,
+      "user_type": "passenger"
+    },
+    "5eMypgVwwnYIdWP1j8qZ7mrYUkI2": {
+      "created_at": 1733590574000,
+      "email": "anyehappiness@gmail.com",
+      "email_verified": false,
+      "first_name": "Admin",
+      "last_login": 1733591635000,
+      "last_name": "User",
+      "phone": "+2348123456789",
+      "phone_verified": false,
+      "profile_completed": false,
+      "status": "pending",
+      "updated_at": 1733591635000,
+      "user_type": "admin"
+    },
+    
+    "Bj1594fFH2bFzDEUkZHSssKLXmm2": {
+      "profile": {
+        "createdAt": 1733398351342,
+        "email": "anyehappiness8@gmail.com",
+        "firstName": "Hans",
+        "lastLogin": 1733398351342,
+        "lastName": "Ade",
+        "phone": "000000",
+        "rating": 0,
+        "status": "active",
+        "totalRides": 0,
+        "userType": "passenger"
+      }
+    },
+    "GH27f5bw4wgC9wbfIGzLJQmGhhW2": {
+      "created_at": 1734023713,
+      "email": "admin@tweetchat.me",
+      "name": "System Admin",
+      "permissions": {
+        "manage_drivers": true,
+        "manage_payments": true,
+        "manage_rides": true,
+        "manage_settings": true,
+        "manage_users": true,
+        "view_analytics": true
+      },
+      "role": "admin",
+      "status": "active",
+      "updated_at": 1734023713
+    },
+    "HTFVYTc59AS4HLIgQFFeKEeZAhx1": {
+      "created_at": 1733746337,
+      "email": "anyehappiness0000@gmail.com",
+      "first_name": "Anye Happiness",
+      "last_name": "Ade",
+      "phone": "+237689719353",
+      "status": "active",
+      "user_type": "driver"
+    },
+    "MGWb5qtIkITUmDEj9tkIeYQYCcE3": {
+      "created_at": 1733730140,
+      "email": "newdriver_test@example.com",
+      "first_name": "Test",
+      "last_login": 1733730343000,
+      "last_name": "Driver",
+      "phone": "+11234567890",
+      "status": "active",
+      "updated_at": 1733730343000,
+      "user_type": "driver"
+    },
+    "OLTfBQgb79gYqk2uWMsWikXnF5d2": {
+      "created_at": 1733611422000,
+      "email": "testdriver_6754cf9b0e21f@example.com",
+      "email_verified": false,
+      "first_name": "John",
+      "last_login": 1733611517000,
+      "last_name": "Doe",
+      "phone": "+13024000731",
+      "phone_verified": false,
+      "profile_completed": false,
+      "status": "pending",
+      "updated_at": 1733611517000,
+      "user_type": "driver"
+    },
+    "OU65PN10vabqJwqcJ14cQpTtGvQ2": {
+      "created_at": 1733614191000,
+      "email": "testdriver_6754da6c714b9@example.com",
+      "email_verified": false,
+      "first_name": "Test",
+      "last_name": "Driver",
+      "phone": "+19370433281",
+      "phone_verified": false,
+      "profile_completed": false,
+      "status": "pending",
+      "updated_at": 1733614191000,
+      "user_type": "driver"
+    },
+    "T1voAXMZ1ugZjFC0IrYGHzxxHXJ2": {
+      "created_at": 1733614162000,
+      "email": "testdriver_6754da4fd1e12@example.com",
+      "email_verified": false,
+      "first_name": "Test",
+      "last_name": "Driver",
+      "phone": "+13807253805",
+      "phone_verified": false,
+      "profile_completed": false,
+      "status": "pending",
+      "updated_at": 1733614162000,
+      "user_type": "driver"
+    },
+    "XHRs2WuS1rNrkJt7DDgR1bshHfr2": {
+      "created_at": 1733614194000,
+      "email": "testdriver_1733614193@example.com",
+      "email_verified": false,
+      "first_name": "Test",
+      "last_login": 1733752962000,
+      "last_name": "Driver",
+      "phone": "+18634015297",
+      "phone_verified": false,
+      "profile_completed": false,
+      "status": "pending",
+      "updated_at": 1733752962000,
+      "user_type": "driver"
+    },
+    "YPqTDZSouVZwpZ5aRF4SKOwGMUx1": {
+      "profile": {
+        "createdAt": "2024-12-05T14:27:20.084Z",
+        "email": "testpassenger@example.com",
+        "userType": "passenger"
+      }
+    },
+    "ZqfoVNmfMravoNTtOaCP6M8Y2Ku2": {
+      "created_at": 1733613998000,
+      "email": "testdriver_6754d9abbd990@example.com",
+      "email_verified": false,
+      "first_name": "Test",
+      "last_name": "Driver",
+      "phone": "+15693834600",
+      "phone_verified": false,
+      "profile_completed": false,
+      "status": "pending",
+      "updated_at": 1733613998000,
+      "user_type": "driver"
+    },
+    "dDevyTLvZnWIHVZ0bHbpcS5RHN63": {
+      "created_at": 1733610860000,
+      "email": "testdriver_6754cd694c55a@example.com",
+      "email_verified": false,
+      "first_name": "Test",
+      "last_login": 1733610864000,
+      "last_name": "Driver",
+      "phone": "+12345678901",
+      "phone_verified": false,
+      "profile_completed": false,
+      "status": "pending",
+      "updated_at": 1733610864000,
+      "user_type": "driver"
+    },
+    "iGkScYRW63XDG1LhfL6EXMzJa762": {
+      "created_at": 1733613885000,
+      "email": "testdriver_6754d93a8cf49@example.com",
+      "email_verified": false,
+      "first_name": "Test",
+      "last_name": "Driver",
+      "phone": "+15735913286",
+      "phone_verified": false,
+      "profile_completed": false,
+      "status": "pending",
+      "updated_at": 1733613885000,
+      "user_type": "driver"
+    },
+    "jg2EbChj97ZKAm5oMdQO75Qssor1": {
+      "created_at": 1733675387000,
+      "email": "anyehappinesscommand@gmail.com",
+      "email_verified": false,
+      "first_name": "Anye Happiness",
+      "last_login": 1733675959000,
+      "last_name": "Ade",
+      "phone": "+237653900000",
+      "phone_verified": false,
+      "profile_completed": false,
+      "status": "pending",
+      "updated_at": 1733675959000,
+      "user_type": "driver"
+    },
+    "l3oGx9xVtKMf1UmjBXeYqfvaQzx2": {
+      "created_at": 1733512767000,
+      "email": "test@example.com",
+      "first_name": "Test",
+      "last_name": "User",
+      "phone": "+237679719353",
+      "rating": 0,
+      "status": "pending",
+      "total_rides": 0,
+      "updated_at": 1733512767000,
+      "user_type": "driver"
+    },
+    "last_login": 1733589473000,
+    "oae9AgkQLRfFRf6XmGxD9NFBUTj1": {
+      "created_at": 1733613845000,
+      "email": "testdriver_6754d912855cf@example.com",
+      "email_verified": false,
+      "first_name": "Hans",
+      "last_login": 1733922029000,
+      "last_name": "Ade",
+      "phone": "+18908262410",
+      "phone_verified": false,
+      "profile_completed": false,
+      "profile_picture": "https://storage.googleapis.com/utok-7f63a.appspot.com/profile_pictures/oae9AgkQLRfFRf6XmGxD9NFBUTj1.jpg?GoogleAccessId=firebase-adminsdk-tar9b%40utok-7f63a.iam.gserviceaccount.com&Expires=4102354800&Signature=LG2dlZbPYa%2Buc%2FWf4b6v0XpC8azVRglqm2TgOsa2b34ylhB6xUqaoyLpYyHiXC7qlIQAszn0ZdrK1iTxog2I1OR%2FB6PEZVLyaj6E37yn%2F0k%2FPeF3jEB6Mual%2BeQcAKa1ecJzNCIrZqDWwjUm4eqgtu%2B%2FsCzqxCnLFjtOv0egwrHoOetnFtVb3Ytv4AZQo0%2BlrtXKQk0U4VhBPfpwc9BCXz4XWSK0TzXDwLFxgWyIwIQwgnZfzjnwP6LQVcRM8sxHqcEUKJOaMHDfu41jr43aVnSM%2BP5mdyhPHekBUv2YHlZFK7fGUs%2FPv5%2Fh2f51RXf%2BYOMacD0pAqDwzuy0mSa%2BRg%3D%3D",
+      "status": "pending",
+      "updated_at": 1733922029000,
+      "user_type": "driver"
+    },
+    "ol9HoQazEEVahQOAzP7tRKR1Kvp1": {
+      "created_at": 1733933131,
+      "email": "anyehappiness2005@gmail.com",
+      "first_name": "Anye",
+      "last_login": 1733945976000,
+      "last_name": "Hans",
+      "phone": "+237670719353",
+      "status": "active",
+      "updated_at": 1733945976000,
+      "user_type": "passenger"
+    },
+    "psn5wQM3TeTS273pbmSB2qL3btj1": {
+      "created_at": 1733586183000,
+      "email": "test.driver@example.com",
+      "email_verified": false,
+      "first_name": "Test",
+      "last_login": 1733589927000,
+      "last_name": "Driver",
+      "phone": "+2349876543210",
+      "phone_verified": false,
+      "profile_completed": false,
+      "status": "pending",
+      "updated_at": 1733589927000,
+      "user_type": "driver"
+    },
+    "rgxPlvfnGAVMRjWyOEyJMHllodk1": {
+      "created_at": 1733611134000,
+      "email": "testdriver_6754ce7ba7740@example.com",
+      "email_verified": false,
+      "first_name": "Test",
+      "last_login": 1733611213000,
+      "last_name": "Driver",
+      "phone": "+16777943275",
+      "phone_verified": false,
+      "profile_completed": false,
+      "status": "pending",
+      "updated_at": 1733611213000,
+      "user_type": "driver"
+    },
+    "template": {
+      "profile": {
+        "createdAt": 1733397372158,
+        "email": "",
+        "firstName": "",
+        "lastLogin": "",
+        "lastName": "",
+        "phone": "",
+        "profileImage": "",
+        "rating": 0,
+        "status": "active",
+        "totalRides": 0,
+        "userType": ""
+      }
+    },
+    "test_user": {
+      "profile_image_hash": "424bc19170c23344dddfe4c67d16af5f61c30110d57af4953abfb0e3b0cf9dbc",
+      "profile_image_size": 840,
+      "profile_image_type": "image/png",
+      "profile_image_updated_at": 1733599003000,
+      "profile_image_url": "https://storage.googleapis.com/utok-7f63a.appspot.com/users/test_user/profile/profile_test_user_1733599003_67549f1b6b5a8.png",
+      "updated_at": 1733599003000
+    },
+    "updated_at": 1733589473000,
+    "wUG7odKklaYZV4oMoF6W5RXVHys2": {
+      "created_at": 1733674886000,
+      "email": "anyehappinesscomm@gmail.com",
+      "email_verified": false,
+      "first_name": "Anye Happiness",
+      "last_name": "Ade",
+      "phone": "+237653974914",
+      "phone_verified": false,
+      "profile_completed": false,
+      "status": "pending",
+      "updated_at": 1733674886000,
+      "user_type": "driver"
+    }
+  }
+}
